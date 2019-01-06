@@ -79,3 +79,14 @@ public class RequestAttributeMethodArgumentResolver extends AbstractNamedValueMe
 }
 
 ```
+
+配置
+```xml
+<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+    <property name="customArgumentResolvers">
+        <list>
+            <bean class="com.example.base.mvc.method.RequestAttributeMethodArgumentResolver" />
+        </list>
+    </property>
+</bean>
+```
