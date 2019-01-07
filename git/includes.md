@@ -1,3 +1,5 @@
+# 判断分支是不是包含另一个分支
+
 ```js
 var exec = require('child_process').execSync;
 
