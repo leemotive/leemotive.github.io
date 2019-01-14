@@ -9,3 +9,8 @@ git rev-parse HEAD
 ```bash
 git rev-parse dev
 ```
+
+指定tag号的commitid也类似
+```bash
+git rev-parse <tag>
+```
