@@ -63,8 +63,10 @@
 `ssserver -c /etc/shadowsocks.json`
 
 后台运行
-`ssserver -c /etc/shadowsocks.json -d start`
-`ssserver -c /etc/shadowsocks.json -d stop`
+
+启动 `ssserver -c /etc/shadowsocks.json -d start`
+
+停止 `ssserver -c /etc/shadowsocks.json -d stop`
 
 ## 安装serverspeeder加速
 `wget -N --no-check-certificate https://github.com/91yun/serverspeeder/raw/master/serverspeeder.sh && bash serverspeeder.sh`
@@ -73,7 +75,7 @@
 `rpm -ivh http://soft.91yun.org/ISO/Linux/CentOS/kernel/kernel-3.10.0-229.1.2.el7.x86_64.rpm --force`
 
 如果需要更换键盘布局
-` localectl set-keymap gb`
+`localectl set-keymap gb`
 
 如果提示The name of network interface is not eth0, please retry after changing the name。
 
