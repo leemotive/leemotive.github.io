@@ -14,3 +14,4 @@ git rev-parse dev
 ```bash
 git rev-parse <tag>
 ```
+添加--short参数可以只查看开头几位
