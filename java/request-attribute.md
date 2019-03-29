@@ -1,5 +1,6 @@
 # RequestAttribute
 通过`@RequestAttribute`获取request中的attribute信息,类似`@RequestParam`从request中获取parameter
+
 Spring Web MVC » 5.0.0.RELEASE开始已经有此功能
 
 ```java
