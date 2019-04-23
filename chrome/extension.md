@@ -10,3 +10,7 @@
 - [Wappalyzer](https://chrome.google.com/webstore/detail/wappalyzer/gppongmhjkpfnbhagpmjfkannfbllamg)
 - [Web Developer](https://chrome.google.com/webstore/detail/web-developer/bfbameneiokkgbdmiekhjnmfkcnldhhm)
 - [WEB前端助手(FeHelper)](https://chrome.google.com/webstore/detail/web%E5%89%8D%E7%AB%AF%E5%8A%A9%E6%89%8Bfehelper/pkgccpejnmalmdinmhkkfafefagiiiad)
+- [Bookmark Scanner](https://chrome.google.com/webstore/detail/bookmark-scanner/ijpiaohplcljdpbgiaggdipdogjlejko)
+- [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)
+- [Modify Headers for Google Chrome™](https://chrome.google.com/webstore/detail/modify-headers-for-google/innpjfdalfhpcoinfnehdnbkglpmogdi)
+- [Wunderlist for Chrome](https://chrome.google.com/webstore/detail/wunderlist-for-chrome/ojcflmmmcfpacggndoaaflkmcoblhnbh)
