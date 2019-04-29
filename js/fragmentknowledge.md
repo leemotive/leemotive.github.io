@@ -1,0 +1,4 @@
+碎片知识
+
+1. 在try或者catch中return，finally中语句依然会执行，如果在finally中return会用finally中的return;
+在finally中修改try或catch中return的变量,类似函数参数,值和引用的关系
