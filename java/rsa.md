@@ -219,4 +219,4 @@ public class RSACoder {
 私钥解密后：乙方向甲方发送数据RSA算法
 ```
 
-
+前端的rsa请参看[js/rsa](../js/rsa.md)
