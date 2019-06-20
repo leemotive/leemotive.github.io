@@ -41,4 +41,6 @@ make install
 
 
 更多安装内容请参考[Nginx安装echo模块](https://www.cnblogs.com/52fhy/p/10166333.html)
+
+
 如果在编译过程中提示C编译器cc不存在什么的，我的是mac，在xcode中设置好Command Line Tools就好了
