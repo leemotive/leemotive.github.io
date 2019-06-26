@@ -8,3 +8,8 @@
 参照[Denyhosts keeps adding my IP address to hosts.deny](https://superuser.com/questions/174162/denyhosts-keeps-adding-my-ip-address-to-hosts-deny)  
 结果是不仅要删除/etc/hosts.deny中的记录，在/var/lib/denyhosts目录下的文件里面有关于客户端ip的记录也要删除  
 其中hosts-root文件中记录着对应ip输错密码的次数  
+
+### 连接服务器后直接执行一个命令
+```bash
+$ ssh username@host "command"
+```
