@@ -31,7 +31,6 @@ POST name=leeup
 通过-H添加
 ```
 location / {
-  echo_read_request_body;
   echo "$http_token";
 }
 ```
