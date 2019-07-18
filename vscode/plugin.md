@@ -39,4 +39,5 @@
 - [Todo Tree](https://github.com/Gruntfuggly/todo-tree)
 - [Visual Studio IntelliCode - Preview](https://github.com/MicrosoftDocs/intellicode)
 - [vscode-faker](https://github.com/deerawan/vscode-faker)
+- [vscode-icons](https://github.com/vscode-icons/vscode-icons)
 
