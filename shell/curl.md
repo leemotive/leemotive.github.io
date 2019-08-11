@@ -58,3 +58,7 @@ $ curl --cookie "uuid=782374734653583945" localhost:10920
 $ curl  "localhost:10920" --cookie "aa=345345;uuid=23424234"       
 23424234
 ```
+
+
+其它常用选项
+s/--silent  静默输出，这样就不会输出进度信息了
