@@ -14,9 +14,14 @@ do
     publisher=$(printf '%s' "$json"| jq -r '.publisher')
     name=$(printf '%s' "$json" | jq -r '.name')
     displayName=$(printf '%s' "$json" | jq -r '.displayName')
+    if [[ $displayName = null ]]; then
+        displayName=$name
+    fi
     echo - [$displayName]"(https://marketplace.visualstudio.com/items?itemName=$publisher.$name)"
   fi
 done
+
+
 ```
 
 在控制台输出一个markdown格式的
