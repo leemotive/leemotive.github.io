@@ -15,12 +15,14 @@ do
     name=$(printf '%s' "$json" | jq -r '.name')
     displayName=$(printf '%s' "$json" | jq -r '.displayName')
     if [[ $displayName = null ]]; then
-        displayName=$name
+      displayName=$name
+    fi
+    if [[ $displayName =~ ^%.*%$ ]]; then
+      displayName=$name
     fi
     echo - [$displayName]"(https://marketplace.visualstudio.com/items?itemName=$publisher.$name)"
   fi
 done
-
 
 ```
 
