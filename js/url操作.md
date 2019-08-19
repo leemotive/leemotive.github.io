@@ -1,6 +1,6 @@
 # url操作
 
-在代码中需要经常用到url的操作，以下是几个好用的库
+在代码中需要经常用到url的操作，以下是几个好用的库。如果是在node程序里，使用Node的[url](https://nodejs.org/dist/latest-v12.x/docs/api/url.html)模块即可
 
 1. [url](https://www.npmjs.com/package/url)  
   这个库基本就是nodejs里面的url模拟的实现
