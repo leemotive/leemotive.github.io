@@ -1,4 +1,7 @@
 # find
+
+一个好用的替代品[fd](https://github.com/sharkdp/fd)
+
 可以用find命令在目录下寻找一些文件，比如查找package.json文件
 ```bash
 find . -name package.json
