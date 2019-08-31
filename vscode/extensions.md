@@ -1,6 +1,7 @@
 # plugin
 记录一些用过的好的插件
 
+- [ignore "g" it](https://marketplace.visualstudio.com/items?itemName=Andreabbondanza.ignoregit)
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 - [Regex Previewer](https://marketplace.visualstudio.com/items?itemName=chrmarti.regex)
@@ -32,6 +33,7 @@
 - [NGINX Log Highlighter](https://marketplace.visualstudio.com/items?itemName=jakebathman.nginx-log-highlighter)
 - [SVG](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 - [Document This](https://marketplace.visualstudio.com/items?itemName=joelday.docthis)
+- [Ignore files](https://marketplace.visualstudio.com/items?itemName=ldez.ignore-files)
 - [Node.js Modules Intellisense](https://marketplace.visualstudio.com/items?itemName=leizongmin.node-module-intellisense)
 - [Syntax Highlighting for yarn.lock files](https://marketplace.visualstudio.com/items?itemName=mariusschulz.yarn-lock-syntax)
 - [Babel JavaScript](https://marketplace.visualstudio.com/items?itemName=mgmcdermott.vscode-language-babel)
@@ -59,3 +61,4 @@
 - [markdown-all-in-one](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one)
 - [Sort JS object keys](https://marketplace.visualstudio.com/items?itemName=zengxingxin.sort-js-object-keys)
 - [IntelliSense for CSS class names in HTML](https://marketplace.visualstudio.com/items?itemName=Zignd.html-css-class-completion)
+
