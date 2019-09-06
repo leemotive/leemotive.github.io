@@ -13,3 +13,6 @@
 - match-parent 和inherit一致使用继承，但是start和end属性继承下来是相对父级的direction
 
 由于justify-all不被浏览器支持，可以使用text-align-last属性，只作用于最后一行文本（包括单行文本）可选值和text-align基本一致
+
+
+如果writing-mode被设置成vertial类型的，那上left为上，right为下
