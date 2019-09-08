@@ -14,3 +14,4 @@
 - [CSSViewer](https://chrome.google.com/webstore/detail/cssviewer/ggfgijbpiheegefliciemofobhmofgce)
 - [Modify Headers for Google Chrome™](https://chrome.google.com/webstore/detail/modify-headers-for-google/innpjfdalfhpcoinfnehdnbkglpmogdi)
 - [Wunderlist for Chrome](https://chrome.google.com/webstore/detail/wunderlist-for-chrome/ojcflmmmcfpacggndoaaflkmcoblhnbh)
+- [Select like a Boss](https://chrome.google.com/webstore/detail/select-like-a-boss/mnbiiidkialopoakajjpeghipbpljffi)
