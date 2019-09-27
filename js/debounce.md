@@ -10,11 +10,7 @@
 function debounce(fun, delay, {leading = true, trailing = false} = {}) {
   let timer = 0;
   return function(...args) {
-    if (timer) {
-      timeout(this, ...args);
-      return;
-    }
-    if (leading) {
+    if (!timer && leading) {
       fun.call(this, ...args);
       timer = setTimeout(() => {
         timer = 0;
