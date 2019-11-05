@@ -24,3 +24,9 @@ find . -path "*/node_modules" -prune -o -name package.json -print
 
 
 一个好用的替代品[fd](https://github.com/sharkdp/fd)
+
+
+查找空目录
+```bash
+find -type d -empty
+```
