@@ -4,3 +4,5 @@
 |---|---|
 | DOM | Document Object Model |
 | HTTP | HyperText Transfer Protocol |
+| XSS | Cross Site Security |
+| CSRF | Cross-site request forgery |
