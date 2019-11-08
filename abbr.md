@@ -10,3 +10,6 @@
 | CSS | Cascading Style Sheet |
 | PPI | Pibel Per Inch | 屏幕像素密度 |
 | dpi | dot per inch | ppi的单位 |
+| URL | Uniform Resource Locator | 统一资源定位 |
+| URN | Uniform Resource Name | 统一资源名称 |
+| URI | Uniform Resource Identifier | 统一资源标识符 |
