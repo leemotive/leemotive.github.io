@@ -3,7 +3,7 @@
 |缩写|全称|名称|
 |---|---|---|
 | DOM | Document Object Model |
-| HTTP | HyperText Transfer Protocol |
+| HTTP | HyperText Transfer Protocol | 超文本传输协议 |
 | XSS | Cross Site Security |
 | CSRF | Cross-site request forgery |
 | BFC | Block Formatting Context | 块级格式化上下文 |
