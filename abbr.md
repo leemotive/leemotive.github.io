@@ -13,3 +13,9 @@
 | URL | Uniform Resource Locator | 统一资源定位 |
 | URN | Uniform Resource Name | 统一资源名称 |
 | URI | Uniform Resource Identifier | 统一资源标识符 |
+| SYN | synchronous | 建立联机 |
+| ACK | acknowledgement | 确认 |
+| PSH | push | 传送 |
+| FIN | finish | 结束 |
+| RST | reset | 重置 |
+| UGR | urgent | 紧急 |
