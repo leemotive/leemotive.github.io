@@ -3,6 +3,7 @@
 |缩写|全称|名称|
 |---|---|---|
 | DOM | Document Object Model |
+| CSSOM | CSS Object Model |
 | HTTP | HyperText Transfer Protocol | 超文本传输协议 |
 | XSS | Cross Site Security |
 | CSRF | Cross-site request forgery |
