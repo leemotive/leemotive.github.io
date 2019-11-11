@@ -19,3 +19,4 @@
 | FIN | finish | 结束 |
 | RST | reset | 重置 |
 | UGR | urgent | 紧急 |
+| LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
