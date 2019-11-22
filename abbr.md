@@ -23,3 +23,4 @@
 | LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
 | HTML | HyperText Markup Language | 超文本标记语言 |
 | TCP | Transmission Control Protocol | 传输控制协议 |
+| IP | Internet Protocol | 网际互连协议 |
