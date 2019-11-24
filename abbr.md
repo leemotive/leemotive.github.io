@@ -17,6 +17,7 @@
 | LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
 | PPI | Pibel Per Inch | 屏幕像素密度 |
 | TCP | Transmission Control Protocol | 传输控制协议 |
+| UDP | User Datagram Protocal | 用户数据协议 |
 | URL | Uniform Resource Locator | 统一资源定位 |
 | URN | Uniform Resource Name | 统一资源名称 |
 | URI | Uniform Resource Identifier | 统一资源标识符 |
