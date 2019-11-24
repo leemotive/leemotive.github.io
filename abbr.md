@@ -4,7 +4,7 @@
 |---|---|---|
 | ARP | Address Resolution Protocol | 地址解析协议 |
 | BFC | Block Formatting Context | 块级格式化上下文 |
-| CSRF | Cross-site request forgery |
+| CSRF | Cross-site request forgery | 跨站请求伪造 |
 | CSS | Cascading Style Sheet |
 | CSSOM | CSS Object Model |
 | DNS | Domain Name System | 域名系统（服务）协议 |
@@ -21,7 +21,7 @@
 | URL | Uniform Resource Locator | 统一资源定位 |
 | URN | Uniform Resource Name | 统一资源名称 |
 | URI | Uniform Resource Identifier | 统一资源标识符 |
-| XSS | Cross Site Security |
+| XSS | Cross Site Security | 跨站脚本攻击 |
 
 ### tcp握手挥手相关标记
 |缩写|全称|名称|
