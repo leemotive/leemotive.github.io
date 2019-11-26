@@ -16,7 +16,7 @@
 | IP | Internet Protocol | 网际互连协议 |
 | LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
 | POP3 | Post Office Protocol - Version 3 | 邮局协议版本3 |
-| PPI | Pibel Per Inch | 屏幕像素密度 |
+| PPI | Pixels Per Inch | 屏幕像素密度 |
 | SMTP | Simple Mail Transfer Protocol | 简单邮件传输协议 |
 | TCP | Transmission Control Protocol | 传输控制协议 |
 | UDP | User Datagram Protocol | 用户数据协议 |
