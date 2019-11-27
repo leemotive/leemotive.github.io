@@ -9,12 +9,15 @@
 | CSSOM | CSS Object Model |
 | DNS | Domain Name System | 域名系统（服务）协议 |
 | DOM | Document Object Model |
+| DoS | Denial of Service | 拒绝服务 |
+| DDoS | Distributed Denial of Service | 分布式拒绝服务攻击 |
 | dpi | dot per inch | ppi的单位 |
 | FTP | File Transfer Protocol | 文件传输协议 |
 | HTML | HyperText Markup Language | 超文本标记语言 |
 | HTTP | HyperText Transfer Protocol | 超文本传输协议 |
 | IP | Internet Protocol | 网际互连协议 |
 | LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
+| MITM | Man-in-the-MiddleAttack | 中间人攻击 |
 | POP3 | Post Office Protocol - Version 3 | 邮局协议版本3 |
 | PPI | Pixels Per Inch | 屏幕像素密度 |
 | SMTP | Simple Mail Transfer Protocol | 简单邮件传输协议 |
