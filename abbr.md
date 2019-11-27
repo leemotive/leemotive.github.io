@@ -18,7 +18,9 @@
 | POP3 | Post Office Protocol - Version 3 | 邮局协议版本3 |
 | PPI | Pixels Per Inch | 屏幕像素密度 |
 | SMTP | Simple Mail Transfer Protocol | 简单邮件传输协议 |
+| SSL | Secure Sockets Layer | 安全套接层 |
 | TCP | Transmission Control Protocol | 传输控制协议 |
+| TLS | Transport Layer Security | 传输层安全性协议 |
 | UDP | User Datagram Protocol | 用户数据协议 |
 | URL | Uniform Resource Locator | 统一资源定位 |
 | URN | Uniform Resource Name | 统一资源名称 |
