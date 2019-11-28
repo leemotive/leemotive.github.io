@@ -106,5 +106,57 @@ set ruler
 
 `P`粘贴至光标前
 
+### 翻页
+`Ctrl + e`向下滚动一行
+
+`Ctrl + y`向上滚动一行
+
+`Ctrl + f`向下翻一页
+
+`Ctrl + b`向上翻一页
+
+`Ctrl + u`向上翻半页
+
+`Ctrl + d`向下翻半页
+
+
+### 文件操作
+`:e filename`找开新文件
+
+`:r filename`读取文件并插入到当前行
+
+`:f`或者`Ctrl + g`显示当前文件名
+
+`1 + Ctrl + g`会显示全路径
+
+### 分屏启动vim
+`vim -on file1 file2...`水平分屏
+
+`vim -On file1 file2...`垂直分屏
+
+### 关闭分屏
+`Ctrl + wc`关闭当前窗口（如果是最后一个, 无法关闭）
+
+`Ctrl + wq`关闭当前窗口（如果是最后一个，则退出vim）
+
+### 分屏
+`Ctrl + ws`上下分屏
+
+`Ctrl + wv`左右分屏
+
+`:sp filename`左右分屏，且打开一个新的文件
+
+`:vsp filename`上下分屏，且打开一个新的文件
+
+### 切换分屏
+`Ctrl + wl`右边
+
+`Ctrl + wh`左边
+
+`Ctrl + wj`上边
+
+`Ctrl + wk`下边
+
+
 
 
