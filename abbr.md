@@ -20,6 +20,7 @@
 | MITM | Man-in-the-MiddleAttack | 中间人攻击 |
 | POP3 | Post Office Protocol - Version 3 | 邮局协议版本3 |
 | PPI | Pixels Per Inch | 屏幕像素密度 |
+| RPC | Remote Procedure Call | 远程过程调用 |
 | SMTP | Simple Mail Transfer Protocol | 简单邮件传输协议 |
 | SSL | Secure Sockets Layer | 安全套接层 |
 | TCP | Transmission Control Protocol | 传输控制协议 |
