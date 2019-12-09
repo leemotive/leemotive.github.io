@@ -95,5 +95,3 @@ service serverSpeeder update #更新
 chattr -i /serverspeeder/etc/apx* && /serverspeeder/bin/serverSpeeder.sh uninstall -f #卸载
 ```
 
-
-[一键搭建参考](https://login546.github.io/2019/05/14/ss-ssr%E4%B8%80%E9%94%AE%E6%90%AD%E5%BB%BA%E5%8F%8A%E5%BC%80%E5%90%AFbbr%E5%8A%A0%E9%80%9F/)
