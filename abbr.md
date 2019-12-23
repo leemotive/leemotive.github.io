@@ -2,6 +2,7 @@
 
 |缩写|全称|名称|
 |---|---|---|
+| AJAX | Asynchronous Javascript and XML | |
 | ARP | Address Resolution Protocol | 地址解析协议 |
 | BFC | Block Formatting Context | 块级格式化上下文 |
 | CSRF | Cross-site request forgery | 跨站请求伪造 |
