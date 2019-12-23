@@ -15,3 +15,6 @@ function f () {
 }
 f();
 ```
+
+2. querySelectorAll方法返回的是NodeList
+3. getElementsByTagName等方法返回的是HTMLCollection
