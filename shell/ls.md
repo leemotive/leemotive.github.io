@@ -22,3 +22,5 @@
   - [a-i] 匹配字符范围
   - [!a] 将不需要的字符排除出去
 
+- `ls -d` 
+> Directories are listed as plain files (not searched recursively).
