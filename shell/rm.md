@@ -12,3 +12,4 @@ rm package-lock.json package.json
 
 
 - `rm -i` 删除文件前确认是否真的要删除
+- `rm -f` 强制删除不用确认
