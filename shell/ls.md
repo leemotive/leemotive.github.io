@@ -24,3 +24,6 @@
 
 - `ls -d` 
 > Directories are listed as plain files (not searched recursively).
+
+- `ls -i`
+> For each file, print the file's file serial number (inode number).
