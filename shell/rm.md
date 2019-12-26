@@ -9,3 +9,6 @@ $ echo rm -rf *.json
 rm package-lock.json package.json
 ```
 可以看到将会删除两个文件，如果没有问题再去重新执行rm命令删除文件
+
+
+- `rm -i` 删除文件前确认是否真的要删除
