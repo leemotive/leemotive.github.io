@@ -12,5 +12,5 @@
   after each socket, a percent sign (`%`) after each whiteout, and a vertical bar (`|`) after
   each that is a FIFO.
 
-
+- `ls -R` 可以递归输出子目录内容
 
