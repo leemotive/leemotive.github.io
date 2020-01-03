@@ -1,5 +1,17 @@
 # ECMA
 
+- history
+> 1. ECMAScript 1.0（1997）
+> 2. ECMAScript 2.0（1998）
+> 3. ECMAScript 3.0（1999）
+> 4. ECMAScript 5.0（2009/12）
+> 5. ES6 (ECMAScript 2015)
+> 7. ES7 (ECMAScript 2016)
+> 8. ES8 (ECMAScript 2017)
+> 9. ES9 (ECMAScript 2018)
+> 10. ES10 (ECMAScript 2019)
+
+
 - A primitive value is a member of one of the following built-in types: **Undefined, Null, Boolean, Number, String**, and **Symbol**; an object is a member of the built-in type **Object**; and a function is a callable object. A function that is associated with an object via a property is called a method.
 
 - ECMAScript defines a collection of built-in objects that round out the definition of ECMAScript entities. These built-in objects include the global object; objects that are fundamental to the runtime semantics of the language including **Object, Function, Boolean, Symbol**, and various **Error** objects; objects that represent and manipulate numeric values including **Math, Number**, and **Date**; the text processing objects **String** and **RegExp**; objects that are indexed collections of values including **Array** and nine different kinds of Typed Arrays whose elements all have a specific numeric data representation; keyed collections including **Map** and **Set** objects; objects supporting structured data including the **JSON** object, **ArrayBuffer, SharedArrayBuffer**, and **DataView**; objects supporting control abstractions including generator functions and **Promise** objects; and reflection objects including **Proxy** and **Reflect**.
