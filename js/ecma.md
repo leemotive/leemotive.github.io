@@ -4,7 +4,7 @@
 1. ECMAScript 1.0（1997）
 2. ECMAScript 2.0（1998）
 3. ECMAScript 3.0（1999）
-4. ECMAScript 5.0（2009/12）
+4. ECMAScript 5.0（2009）
 5. ES6 (ECMAScript 2015)
 7. ES7 (ECMAScript 2016)
 8. ES8 (ECMAScript 2017)
