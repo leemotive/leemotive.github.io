@@ -7,10 +7,10 @@
 4. ECMAScript 5.0 (2009)
 4. ECMAScript 5.1 (2011)
 5. ES6 (ECMAScript 2015)
-7. ES7 (ECMAScript 2016)
-8. ES8 (ECMAScript 2017)
-9. ES9 (ECMAScript 2018)
-10. ES10 (ECMAScript 2019)
+7. ECMAScript 2016
+8. ECMAScript 2017
+9. ECMAScript 2018
+10. ECMAScript 2019
 
 
 - A primitive value is a member of one of the following built-in types: **Undefined, Null, Boolean, Number, String**, and **Symbol**; an object is a member of the built-in type **Object**; and a function is a callable object. A function that is associated with an object via a property is called a method.
