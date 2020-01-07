@@ -27,6 +27,8 @@
 | assignment operators | 赋值运算符 |
 | comma operator | 逗号运算符 |
 | primitive value | 原始值 | 基础类型的值 |
+| context-free grammar | 上下文无关语法 |
+| production | 产生式 |
 
 
 - A primitive value is a member of one of the following built-in types: **Undefined, Null, Boolean, Number, String**, and **Symbol**; an object is a member of the built-in type **Object**; and a function is a callable object. A function that is associated with an object via a property is called a method.
