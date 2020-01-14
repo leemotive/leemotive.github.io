@@ -54,3 +54,11 @@
 |@@toPrimitive|"Symbol.toPrimitive"|A method that converts an object to a corresponding primitive value. Called by the **ToPrimitive** abstract operation.|
 |@@toStringTag|"Symbol.toStringTag"|A String valued property that is used in the creation of the default string description of an object. Accessed by the built-in method  **Object.prototype.toString**.|
 |@@unscopables|"Symbol.unscopables"|An object valued property whose own and inherited property names are property names that are excluded from the with environment bindings of the associated object.|
+
+- data property  
+  [[Value]]、[[Writable]]、[[Enumerable]]、[[Configurable]]
+  
+- accessor property  
+  [[Get]]、[[Set]]、[[Enumerable]]、[[Configurable]]
+
+
