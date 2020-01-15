@@ -73,12 +73,3 @@
   | [[Enumerable]] | false |
   | [[Configurable]] | false |
 
-
-- GetPrototypeOf
-  > The type of the return value must be either Object or null
-  > An Object's prototype chain should have finite length. (that is, starting from any object, recursively applying the [[GetPrototypeOf]] internal method to its result should eventually lead to the value **null**)
-  
-  
-  
-  
-  
