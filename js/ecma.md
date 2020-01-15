@@ -164,3 +164,14 @@ The abstract operation ToPropertyKey converts argument to a value that can be us
   1. Let key be ? ToPrimitive(argument, hint String)
   2. If Type(key) is Symbol, then return key
   3. Return !ToString(key)
+
+
+- IsArray(argument)
+
+1. If Type(argument) is not Object, return false
+2. If argument is an Array exotic object, return true.
+3. If argument is a Proxy exotic object, then
+    1. If argument.[[ProxyHandle]] is null, throw a TypeError exception
+    2. Let target be argument.[[ProxyTarget]]
+    3. return ? IsArray(target)
+4. Return false
