@@ -73,3 +73,41 @@
   | [[Enumerable]] | false |
   | [[Configurable]] | false |
 
+
+- ToPrimitive ( input [ , PreferredType ] )
+
+The abstract operation ToPrimitive takes an input argument and an optional argument PreferredType. The abstract operation ToPrimitive converts its input argument to a non-Object type. If an object is capable of converting to more than one primitive type, it may use the optional hint PreferredType to favour that type. Conversion occurs according to the following algorithm:
+
+
+  1. Assert: input is an ECMAScript language value.
+  2. If Type(input) is Object, then
+      1. If PreferredType is not present, let hint be "default".
+      2. Else if PreferredType is hint String, let hint be "string".
+      3. Else PreferredType is hint Number, let hint be "number".
+      4. Let exoticToPrim be ? GetMethod(input, @@toPrimitive).
+      5. If exoticToPrim is not undefined, then
+          1. Let result be ? Call(exoticToPrim, input, « hint »).
+          2. If Type(result) is not Object, return result.
+          3. Throw a TypeError exception.
+      6. If hint is "default", set hint to "number".
+      7. Return ? OrdinaryToPrimitive(input, hint).
+  3. Return input.
+  
+  
+- OrdinaryToPrimitive ( O, hint )  
+
+When the abstract operation OrdinaryToPrimitive is called with arguments O and hint, the following steps are taken:
+
+  1. Assert: Type(O) is Object.
+  2. Assert: Type(hint) is String and its value is either "string" or "number".
+  3. If hint is "string", then
+      1. Let methodNames be « "toString", "valueOf" ».
+  4. Else,
+      1. Let methodNames be « "valueOf", "toString" ».
+  5. For each name in methodNames in List order, do
+      1. Let method be ? Get(O, name).
+      2. If IsCallable(method) is true, then
+          1. Let result be ? Call(method, O).
+          2. If Type(result) is not Object, return result.
+  6. Throw a TypeError exception.
+
