@@ -156,3 +156,11 @@ When the abstract operation OrdinaryToPrimitive is called with arguments O and h
 | Symbol | Throw a TypeError exception |
 | Object | 1. Let primValue be ? ToPrimitive(argument, hint String).<br />2. Return ? ToString(primValue). |
 
+
+- ToPropertyKey(argument)
+
+The abstract operation ToPropertyKey converts argument to a value that can be used as a property key by performing the following steps:
+
+  1. Let key be ? ToPrimitive(argument, hint String)
+  2. If Type(key) is Symbol, then return key
+  3. Return !ToString(key)
