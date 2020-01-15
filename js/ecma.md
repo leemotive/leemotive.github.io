@@ -136,4 +136,9 @@ When the abstract operation OrdinaryToPrimitive is called with arguments O and h
   | Symbol | Throw a TypeError exception |
   | Object | 1. Let primValue be ? ToPrimitive(argument, hint Number).<br/> 2. Return ? ToNumber(primValue). |
   
-  
+- ToInteger(argument)
+
+1. Let number be ? ToNumber(argument)
+2. If number is NaN, return +0
+3. If number is +0, -0, +∞, or -∞, return number
+4. Return the number value that is the same sign as number and whose magnitude is floor(abs(number))
