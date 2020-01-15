@@ -142,3 +142,17 @@ When the abstract operation OrdinaryToPrimitive is called with arguments O and h
 2. If number is NaN, return +0
 3. If number is +0, -0, +∞, or -∞, return number
 4. Return the number value that is the same sign as number and whose magnitude is floor(abs(number))
+
+
+- ToString(argument)
+
+| Argument Type | Result |
+|---|---|
+| Undefined | 'undefined' |
+| Null | 'null' |
+| Boolean | 'true' or 'false' |
+| Number | NumberToString(argument) |
+| String | return argument |
+| Symbol | Throw a TypeError exception |
+| Object | 1. Let primValue be ? ToPrimitive(argument, hint String).<br />2. Return ? ToString(primValue). |
+
