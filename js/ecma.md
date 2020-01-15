@@ -175,3 +175,24 @@ The abstract operation ToPropertyKey converts argument to a value that can be us
     2. Let target be argument.[[ProxyTarget]]
     3. return ? IsArray(target)
 4. Return false
+
+
+- IsInteger(argument)
+
+1. If Type(argument) is not Number, return false
+2. If argument is NaN, +∞, or -∞ return false
+3. If floor(abs(argument)) ≠ abs(argument), return false
+4. Return true
+
+- Strict Equality Comparison
+
+The comparison x === y, where x and y are values, produces true or false. Such a comparison is performed as follows:
+
+1. If Type(x) is different from Type(y) return false
+2. If Type(y) is Number then
+    1. If x is NaN, return false
+    2. If y is NaN, return false
+    3. If x is the same Number value as y, return true
+    4. +0 === -0
+    5. Return false
+3. Return SameValueNonNumber(x, y)
