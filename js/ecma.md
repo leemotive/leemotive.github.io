@@ -111,3 +111,15 @@ When the abstract operation OrdinaryToPrimitive is called with arguments O and h
           2. If Type(result) is not Object, return result.
   6. Throw a TypeError exception.
 
+
+- ToBoolean(arguments)
+
+  | Argument Type | Result |
+  |---|---|
+  | Undefined | false |
+  | Null | false |
+  | Boolean | argument |
+  | Number | If argument is +0, -0, or NaN, return false, otherwise return true |
+  | String | if argument is the empty String(length is zero) return false, otherwise return false |
+  | Symbol | true |
+  | Object | true |
