@@ -123,3 +123,17 @@ When the abstract operation OrdinaryToPrimitive is called with arguments O and h
   | String | if argument is the empty String(length is zero) return false, otherwise return false |
   | Symbol | true |
   | Object | true |
+  
+  
+- ToNumber(argument)
+
+  | Argument Type | Result |
+  |---|---|
+  | Undefined | NaN |
+  | Null | +0 |
+  | Boolean | if argument is true return 1, If argument is false return +0 |
+  | Number | return argument |
+  | Symbol | Throw a TypeError exception |
+  | Object | 1. Let primValue be ? ToPrimitive(argument, hint Number).<br/> 2. Return ? ToNumber(primValue). |
+  
+  
