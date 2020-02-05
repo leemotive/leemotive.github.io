@@ -201,3 +201,5 @@ The comparison x === y, where x and y are values, produces true or false. Such a
 
 > Data properties of the [[Prototype]] object are inherited (and visible as properties of the child object) for the purposes of get access, but not for set access. Accessor properties are inherited for both get access and set access.
 
+
+> once the value of an object's [[Extensible]] internal slot has been set to false, it is no longer possible to add properties to the object, to modify the value of the object's [[Prototype]] internal slot, or to subsequently change the value of [[Extensible]] to true.
