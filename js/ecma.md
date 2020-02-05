@@ -196,3 +196,8 @@ The comparison x === y, where x and y are values, produces true or false. Such a
     4. +0 === -0
     5. Return false
 3. Return SameValueNonNumber(x, y)
+
+
+
+> Data properties of the [[Prototype]] object are inherited (and visible as properties of the child object) for the purposes of get access, but not for set access. Accessor properties are inherited for both get access and set access.
+
