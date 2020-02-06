@@ -203,3 +203,5 @@ The comparison x === y, where x and y are values, produces true or false. Such a
 
 
 > once the value of an object's [[Extensible]] internal slot has been set to false, it is no longer possible to add properties to the object, to modify the value of the object's [[Prototype]] internal slot, or to subsequently change the value of [[Extensible]] to true.
+
+> If F.[[FunctionKind]] is **"classConstructor"**, throw a **TypeError** exception.
