@@ -1,3 +1,12 @@
+The symbol constructor:
+- is the intrinsic object %Symbol%
+- is the initial value of the Symbol property of the global object.
+- returns a new Symbol value when called as a function
+- is not intended to be used with the new operator.
+- is not intended to be subclassed.
+- may be used as the value of an extends clause of a class definition but a super call to it will cause an exception.
+
+
 
 - Well-Known Symbols
 
