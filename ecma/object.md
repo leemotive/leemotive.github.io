@@ -19,7 +19,8 @@ The **assign** function is used to copy the values of all of the enumerable own 
 `OwnPropertyKeys`, `enumerable`
 
 ### Object.create(O, Properties)
-The **create** function creates a new object with a specified prototype.
+The **create** function creates a new object with a specified prototype.  
+如果O为null, 那么新建出来的对象的原型就是null, 也就是说这个新对象无法直接使用到Object.prototype上的一些方法了，这和对象字面量`{}`创建出来的对象是不一样的
 
 
 ### Object.defineProperties(O, Properties)
