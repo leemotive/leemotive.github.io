@@ -11,9 +11,9 @@
 
 - once the value of an object's [[Extensible]] internal slot has been set to false, it is no longer possible to add properties to the object, to modify the value of the object's [[Prototype]] internal slot, or to subsequently change the value of [[Extensible]] to true.
 
-- If F.[[FunctionKind]] is **"classConstructor"**, throw a **TypeError** exception.
+- class声明的函数不可以被当作普通函数执行， If F.[[FunctionKind]] is **"classConstructor"**, throw a **TypeError** exception.
 
-
+- 普通函数在被调用的时候，new.target返回undefined, 在被通过new操作符当作构造函数时new.target返回函数自身
 
 - The source text of an ECMAScript Script or Module is first converted into a sequence of input elements, which are tokens, line terminators, comments, or white space.
 
