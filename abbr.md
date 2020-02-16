@@ -42,3 +42,12 @@
 | FIN | finish | 结束 |
 | RST | reset | 重置 |
 | UGR | urgent | 紧急 |
+
+### 算法
+|缩写|全称|备注|
+|---|---|---|
+|SHA|Secure Hash Algorithm|安全散列算法|
+|RSA||一种非对称算法，名称源于三位发明者的姓首字母|
+|MD5|Message-Digest Algorithm|信息摘要算法，被广泛使用的散列函数|
+|DES|Data Encryption Standard|数据加密标准，密钥加密|
+|DEA|Data Encryption Algorithm|数据加密算法|
