@@ -14,3 +14,8 @@ $ git diff HEAD
 $ git diff --staged
 $ git diff --cached
 ```
+
+- --word-diff提供逐词比较功能
+```bash
+$ git diff --word-diff
+```
