@@ -18,3 +18,4 @@ f();
 
 2. querySelectorAll方法返回的是NodeList
 3. getElementsByTagName等方法返回的是HTMLCollection
+4. form表单中只有一个input的时候，回车会触发表单提交，两个及以上字段不会触发自动提交
