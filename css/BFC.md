@@ -2,7 +2,7 @@
 
 形成条件
 
-- <html>元素
+- \<html\>元素
 - float的值不为none
 - overflow的值为auto, scroll或者hidden
 - display的值为table-cell, table-captiona或者inline-block
