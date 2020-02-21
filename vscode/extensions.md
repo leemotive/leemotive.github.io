@@ -1,6 +1,6 @@
 # plugin
 记录一些用过的好的插件
-
+- [Bookmarks](https://marketplace.visualstudio.com/items?itemName=alefragnani.Bookmarks)
 - [ignore "g" it](https://marketplace.visualstudio.com/items?itemName=Andreabbondanza.ignoregit)
 - [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
