@@ -2,7 +2,7 @@
 
 节省流量，节约时间，提升性能
 
-![cache.png](./cache.png)
+![cache.png](./cache.jpg)
 - Expires  
     HTTP在请求返回的response中设置expires，指明该资源的过期时间
     ```java
