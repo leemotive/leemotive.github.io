@@ -18,8 +18,9 @@ targetWindow.postMessage(message, targetOrigin, [transfer]);
     需要传递的消息，使用[结构化克隆算法](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Structured_clone_algorithm)
 - targetOrigin    
     targetWindow所在的域(scheme, hostname, port)或者 `*`。
+    
     > Always provide a specific targetOrigin, not *, if you know where the other window's document should be located. Failing to provide a specific target discloses the data you send to any interested malicious site.
-- transfer[optional]
+- transfer[optional]  
     一个[Transferable](https://developer.mozilla.org/en-US/docs/Web/API/Transferable)对象组成的序列，和消息一同被传递给targetWindow。一旦被传递后，在当前环境下这些对象就变得不可用
 
 
@@ -35,5 +36,5 @@ event重要属性
     发送消息的窗口的域，
 - source  
     发送消息的window对象
-- ports
+- ports  
     随消息一同传送过来的Transferable对象系列
