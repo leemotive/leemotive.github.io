@@ -20,7 +20,7 @@ targetWindow.postMessage(message, targetOrigin, [transfer]);
     targetWindow所在的域(scheme, hostname, port)或者 `*`。
     > Always provide a specific targetOrigin, not *, if you know where the other window's document should be located. Failing to provide a specific target discloses the data you send to any interested malicious site.
 - transfer[optional]
-    一个`Transferable`对象组成的序列，和消息一同被传递给targetWindow。一旦被传递后，在当前环境下这些对象就变得不可用
+    一个[Transferable](https://developer.mozilla.org/en-US/docs/Web/API/Transferable)对象组成的序列，和消息一同被传递给targetWindow。一旦被传递后，在当前环境下这些对象就变得不可用
 
 
 targetWindow需要在自己页面监听消息事件
