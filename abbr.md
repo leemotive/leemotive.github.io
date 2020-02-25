@@ -14,6 +14,7 @@
 | DoS | Denial of Service | 拒绝服务 |
 | DDoS | Distributed Denial of Service | 分布式拒绝服务攻击 |
 | dpi | dot per inch | ppi的单位 |
+| fps | Frame Per Second | 每秒传输帧数(刷新率) |
 | FTP | File Transfer Protocol | 文件传输协议 |
 | HTML | HyperText Markup Language | 超文本标记语言 |
 | HTTP | HyperText Transfer Protocol | 超文本传输协议 |
