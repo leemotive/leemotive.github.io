@@ -34,3 +34,6 @@ server {
 各种文件的生成都可以在[中国数字证书提供的免费在线SSL证书工具](https://www.chinassl.net/ssltools/)中完成
 
 [参考链接](https://aotu.io/notes/2016/08/16/nginx-https/index.html)
+
+
+或者通过Certbot工具进行相关证书生成及文件配置
