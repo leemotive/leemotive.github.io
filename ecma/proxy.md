@@ -72,3 +72,8 @@ proxy.value // 24
 13. construct  
     - 只有在目标对象可以作为构造器的时候，才有这个拦截方法
     - 这个拦截方法的结果必须是个对象
+
+
+Proxy vs Object.defineProperty
+- Object.defineProperty只能劫持特定属性，有新属性时需要对新属性重新应用defineProperty方法
+- Proxy是代理对象，对象上数据存取，不管是增删改查都可以直接劫持，如果代理数组对象，数组操作导致的length属性自动变更也是可以被劫持到的
