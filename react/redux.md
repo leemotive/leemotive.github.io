@@ -17,8 +17,8 @@ export default function createStore(reducer, preloadedState, enhancer) {
   }
 
   let currentReducer = reducer
-  let currentState = preloadedState as S
-  let currentListeners: (() => void)[] | null = []
+  let currentState = preloadedState
+  let currentListeners = []
   let nextListeners = currentListeners
   let isDispatching = false
 
