@@ -28,11 +28,33 @@ app.get('/', (req, res) => {
   res.sendFile(path.resolve(__dirname, 'html.html'))
 })
 
+app.get('/long.js', (req, res) => {
+  console.log('get js start', new Date())
+  setTimeout(function() {
+    res.sendFile(path.resolve(__dirname, 'long.js'));
+    console.log('return long.js', new Date());
+  }, 5000)
+})
+
+app.get('/js2.js', (req, res) => {
+  console.log('get js start', new Date())
+  res.set('Cache-Control', 'no-store');
+  res.sendFile(path.resolve(__dirname, 'js2.js'));
+  console.log('return js', new Date());
+})
+
 app.get('/js.js', (req, res) => {
   console.log('get js start', new Date())
   res.set('Cache-Control', 'no-store');
   res.sendFile(path.resolve(__dirname, 'js.js'));
   console.log('return js', new Date());
+})
+
+app.get('/require.html', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'require.html'))
+})
+app.get('/testrequire.js', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'testrequire.js'))
 })
 
 app.listen(3000, () => {
