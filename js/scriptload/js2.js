@@ -1,4 +1,4 @@
-console.log('js2')
+console.log('js22')
 
 window.$ = function() {
   console.log('结果');
