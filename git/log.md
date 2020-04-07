@@ -33,6 +33,9 @@ $ git log [<options>] [<revision range>] [[--] <path>…​]
 
 - oneline提交精简的日志输出
 
+##### --reverse
+从最早的日志开始展示
+
 ##### --follow
 会显示文件在重命名之前的日志（只针对单个文件输出时有效）
 
