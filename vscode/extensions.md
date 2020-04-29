@@ -10,6 +10,8 @@
 - [Markdown Table Prettifier](https://marketplace.visualstudio.com/items?itemName=darkriszty.markdown-table-prettify)
 - [Dart](https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
 - [Flutter](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
+- [FreeMarker](https://marketplace.visualstudio.com/items?itemName=dcortes92.FreeMarker)
+- [EJS language support](https://marketplace.visualstudio.com/items?itemName=DigitalBrainstem.javascript-ejs-support)
 - [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 - [vscode-gitignore-syntax](https://marketplace.visualstudio.com/items?itemName=dunstontc.vscode-gitignore-syntax)
