@@ -19,6 +19,7 @@
 | FTP | File Transfer Protocol | 文件传输协议 |
 | HTML | HyperText Markup Language | 超文本标记语言 |
 | HTTP | HyperText Transfer Protocol | 超文本传输协议 |
+| IIFE | Immediately Invoked Function Expression | 立即调用函数表达式 |
 | IP | Internet Protocol | 网际互连协议 |
 | LRU | Least Recently Used | 最近最少使用,一种缓存数据的策略吧 |
 | MITM | Man-in-the-MiddleAttack | 中间人攻击 |
