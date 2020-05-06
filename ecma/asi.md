@@ -39,3 +39,13 @@ However, there is an additional overriding condition on the preceding rules: a s
 >*YieldExpression*<sub><font color="#2aa198">[In, Await]</font></sub>:  
 &nbsp;&nbsp;&nbsp;&nbsp;**yield** [no *LineTerminator* here] *AssignmentExpression*<sub><font color="#2aa198">[?In, +Yield, ?Await]</font></sub>  
 &nbsp;&nbsp;&nbsp;&nbsp;**yield** [no *LineTerminator* here] \* *AssignmentExpression*<sub><font color="#2aa198">[?In, +Yield, ?Await]</font></sub>  
+
+
+在编写代码的时候，最好还是加上分号吧，因为换行不是标记一个语句的结束，有的时候两行会被连在一起解释执行，从而产生错误
+```javascript
+function cal() {}
+
+var res = cal()
+(function() {})()
+```
+此段代码执行会产生错误
