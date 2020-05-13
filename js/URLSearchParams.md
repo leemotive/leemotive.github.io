@@ -19,3 +19,61 @@ for(let a of k.searchParams) console.log(a)
 ```
 
 更多方法及例子参阅[URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+
+
+
+关于 `new URL()` 操作返回的对象拥有的属性的说明：
+
+```js
+new URL('http://leemotive:leemotivepwd@example.leemotive.com:7002/package/query?keyword=nanjing#/hashstr')
+```
+
+- href
+
+  完整的 url 字符串
+
+- protocal
+
+  协议部分，末尾有 `:`
+
+- host
+
+  域名 + 端口部分，默认端口会被省略
+
+- hostname
+
+  域名部分，没有端口
+
+- port
+
+  端口号
+
+- pathname
+
+  url 中路径部分
+
+- search
+
+  url 中的参数，以 `?` 开头
+
+- hash
+
+  url 中的hash部分，以 `#` 开头
+
+- username
+
+  url 中用户名部分
+
+- password
+  url 中密码部分
+
+- origin（只读）
+
+  包含 协议，域名，端口三部分，据此可以判断是否满足同源策略
+
+- searchParams
+
+  一个 URLSearchParams 对象，包含 search 部分的信息
+
+> 如果把 hash 写在前面，参数写在后面，那么返回的 hash 是包含参数部分的，而 search 是一个空字符串
+
