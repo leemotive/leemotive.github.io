@@ -22,3 +22,16 @@ keep-all 不允许CJK文本中的单词换行，在空格或者连字符处换�
 
 break-word 已经被标注为 deprecated
 
+
+
+更多相关介绍参考：
+
+- [HTML: Making browsers wrap long words](https://makandracards.com/makandra/47957-html-making-browsers-wrap-long-words)
+- [Wrapping long words with CSS or HTML](https://www.cjcid.com/articles/wrapping-long-words-css-html/)
+- [break-word](https://developer.mozilla.org/en-US/docs/Web/CSS/word-break)
+- [overflow-wrap](https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-wrap)
+- [word-break:break-all和word-wrap:break-word的区别](https://www.zhangxinxu.com/wordpress/2015/11/diff-word-break-break-all-word-wrap-break-word/)
+- [CSS overflow-wrap新属性值anywhere是干嘛用的？](https://www.zhangxinxu.com/wordpress/2020/03/css-overflow-wrap-anywhere/)
+
+
+
