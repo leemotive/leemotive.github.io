@@ -17,6 +17,18 @@ f();
 ```
 
 2. querySelectorAll方法返回的是NodeList
+
 3. getElementsByTagName等方法返回的是HTMLCollection
+
 4. form表单中只有一个input的时候，回车会触发表单提交，两个及以上字段不会触发自动提交
+
 5. 使用Promise时在reject和resolve方法后还是调用一下return吧。在reject和resolve方法之后虽然不无法修改状态了，但是却可以修改返回的数据的内容，和finally里面修改返回值类似
+
+6. 循环使用Index
+
+   ```js
+   new Array(10).forEach((item, index) => {}); // 不会进行循环遍历
+   [...new Array(10)].forEach((item, index) => {}) // 遍历的每一项都 undefined
+   ```
+
+   
