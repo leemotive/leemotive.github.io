@@ -19,4 +19,4 @@ link 标签一般是用来关联一个样式文件的，它支持 title 属性�
 - 基本页面样式会只应用没有 `title` 属性的样式表
 - 下面的则是根据 `title` 值去选择，多个同 `title` 值的 `link` 是合在一个菜单选择的
 
-chrome（可安装插件）, safari 浏览器暂未见相关菜单
+chrome（可安装插件[Alt CSS](https://chrome.google.com/webstore/detail/alt-css/deaodobjfcolfhkecnnghdclnlmfjdje)）, safari 浏览器暂未见相关菜单
