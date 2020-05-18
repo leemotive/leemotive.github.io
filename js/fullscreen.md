@@ -22,7 +22,7 @@ function exitFullScreen() {
     } else if (document.mozCancelFullScreen) {
         document.mozCancelFullScreen();
     } else if (document.msExitFullscreen) {
-        document.msExiFullscreen();
+        document.msExitFullscreen();
     } else if (document.webkitCancelFullScreen) {
         document.webkitCancelFullScreen();
     } else if (document.webkitExitFullscreen) {
