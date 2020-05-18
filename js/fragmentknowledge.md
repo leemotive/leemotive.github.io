@@ -31,4 +31,4 @@ f();
    [...new Array(10)].forEach((item, index) => {}) // 遍历的每一项都 undefined
    ```
 
-   
+   通过这种方法初始化的数组，元素是不存在的，在控制台打印看到的是 `empty`，这些元素在 `every, filter, forEach, map, some` 的循环中也是被跳过的
