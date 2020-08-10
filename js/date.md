@@ -4,7 +4,7 @@
 
 - 格式化只支持格式化为数字，不支持英文及中文
 ```javascript
-format (date, fmt) {
+function format (date, fmt) {
   // 只支持年月日时分秒的数字型的格式化，不支持英文及简写等
   date = new Date(date)
   let methods = {
