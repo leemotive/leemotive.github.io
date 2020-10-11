@@ -18,43 +18,66 @@ document.cookie
 document.cookie = 'name=value;domain=domain;path=path;expires=time;max-age=num;SameSite=level;HttpOnly;secure'
 ```
 
-- name=value  
+- name=value
+    
     设置cookie名称及对应的值
-- domain=domain  
+    
+- domain=domain
+    
     设置cookie在哪个域名下生效，默认是当前页面对应的域名，可以自己指定为当前域名的父级域名
+    
     ```javascript
     // http://page.example.com/a.html
     document.cookie = 'name=张三;domain=example.com';
     ```
     自己指定域名的时候会在域名前自动补上一个 `.`。表示域名在domain及其子域均可以被访问
-- path=path  
+    
+- path=path
+    
     设置cookie在哪个路径下可以被访问
+    
     - 绝对路径
     - path或者其子目录下才可以访问
     - 默认是当前页面所有目录
     - 如果设置成了别的目录(非父目录)，那当前目录也是访问不到的
-- expires=time  
+    
+- expires=time
+    
     设置cookie过期时间
+    
     - 表示一个时间点的字符串
     - 通过`new Date()`创建日期并调用`toUTCString`方法转为字符串
     - 不要使用Date隐工转为字符串功能，不同浏览器实现不一定是一样的
     - 到过了过期时间后cookie会自动删除
     - 设置expires为当前时间或者之前的时间来手动删除
-- max-age=num  
+    
+- max-age=num
+    
     设置cookie过期时间
+    
     - 单位是秒
     - 比expires新，优先级也比expires高，和http缓存中的max-age和expires类似
     - 低版本的IE有兼容性问题，expires基本没这个问题
-- SameSite=level  
+    
+- SameSite=level
+    
     用于限制第三方cookie，其值可以是Strict,Lax,None
+    
     - Strict 禁用任何第三方Cookie
     - Lax 
         - 对于第三方异步请求，禁止第三方cookie(包括script, link, img, iframe)
         - 对于第三方同步GET请求，不禁止第三方cookie(包括超链接，link预加载，Get型form表单)
     - None 没有任何限制
+        
         > Chrome浏览器后续版本可能会要求在设置SameSite=Node的时候，同时要求设置secure。否则不生效
-- HttpOnly  
+    
+- HttpOnly
+    
     规定cookie只能在http(s)请求中访问，防止通过脚本获取。也不可以在前端设置设置属性，带有此忏悔的cookie设置都是生效的，只能通过服务端来设置
-- secure  
-    cookie只能在https协议下才会发送到服务端  
+    
+- secure
+    
+    cookie只能在https协议下才会发送到服务端
+    
     也只可以在https网站下设置些属性
+
