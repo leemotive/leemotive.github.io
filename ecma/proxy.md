@@ -1,7 +1,9 @@
 # proxy
 
-Proxy提供了创建一个对象的代理对象，拦截对象操作的方法。  
+Proxy提供了创建一个对象的代理对象，拦截对象操作的方法。
+
 使用示例如下：
+
 ```javascript
 var target = {
   value: 23

@@ -1,10 +1,14 @@
-Punctuator **:: one of**  
-&emsp;&emsp;**{ ( ) [ ] . ... ; , < > <= >= == != === !== + - * % \*\* ++ -- << >> >>> & | ^ ! ~ && || ?: = += -= *= %= \*\*= <<= >>= >>>= &= |= ^= =>**
+Punctuator **:: one of** 
 
+​	**{ ( ) [ ] . ... ; , < > <= >= == != === !== + - * % \*\* ++ -- << >> >>> & | ^ ! ~ && || ?: = += -= *= %= \*\*= <<= >>= >>>= &= |= ^= =>**
 
-DivPunctuator::  
-&emsp;&emsp;/  
-&emsp;&emsp;/=
+DivPunctuator:: 
 
-RightBracePunctuator::  
-&emsp;&emsp;}
+​	/ 
+
+​	/=
+
+RightBracePunctuator:: 
+
+​	}
+

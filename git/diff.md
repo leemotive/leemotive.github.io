@@ -5,17 +5,26 @@
 比较工作区和暂存区中的差别
 
 - 比较工作区和HEAD区别
-```bash
-$ git diff HEAD
-```
+
+  ```bash
+  $ git diff HEAD
+  ```
+
+  
 
 - 比较暂存区和版本库的区别
-```bash
-$ git diff --staged
-$ git diff --cached
-```
+
+  ```bash
+  $ git diff --staged
+  $ git diff --cached
+  ```
+
+  
 
 - --word-diff提供逐词比较功能
-```bash
-$ git diff --word-diff
-```
+
+  ```bash
+  $ git diff --word-diff
+  ```
+
+  

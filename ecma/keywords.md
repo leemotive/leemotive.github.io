@@ -5,8 +5,8 @@ The following tokens are ECMAScript keywords and may not be used as Identifiers 
 
 In some contexts **yield** and **await** are given the semantics of an *Identifier*. See 12.1.1. In strict mode code, **let** and **static** are treated as reserved words through static semantic restrictions rather than the lexical grammar.
 
+FutureReservedWord 
 
-FutureReservedWord  
 **enum**
 
 Use of the following tokens within strict mode code is also reserved. That usage is restricted using static semantic restrictions rather than the lexical grammar:

@@ -1,8 +1,10 @@
 
-- data property  
+- data property 
+  
   [[Value]]、[[Writable]]、[[Enumerable]]、[[Configurable]]
   
-- accessor property  
+- accessor property 
+  
   [[Get]]、[[Set]]、[[Enumerable]]、[[Configurable]]
 
 
