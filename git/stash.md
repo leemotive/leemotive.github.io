@@ -11,5 +11,8 @@
 - `git stash drop` 从暂存列表中删除记录
 - `git stash clear` 清空暂存列表
 - `git stash push [path]` 只暂存指定的文件
+- `git stash -a` 所有新文件及被忽略的文件也会暂存
+- `git stash -u` 所有新文件不含忽略文件会被暂存
 
 暂存时可以添加-m的属性，为此次暂存添加一个说明。和commit命令类似
+
