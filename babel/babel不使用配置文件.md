@@ -9,3 +9,4 @@ babel.transform(content, {
 ```
 
 如此便不会使用配置文件中的配置了
+
