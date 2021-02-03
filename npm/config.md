@@ -1,6 +1,6 @@
 # config
 
-配置仓库地址
+## 配置仓库地址
 
 ```bash
 $ npm config set registry 私有仓库地址
@@ -10,5 +10,25 @@ $ npm config set registry 私有仓库地址
 
 ```bash
 $ npm config set @company:registry 公司私库地址
+```
+
+
+
+
+
+## Puppeteer 安装配置
+
+避免安装过慢，可以从国内镜像下载
+
+```bash
+# ~/.bashrc
+export PUPPETEER_DOWNLOAD_HOST=https://npm.taobao.org/mirrors
+```
+
+或者
+
+```ini
+# ~/.npmrc
+puppeteer_download_host=https://npm.taobao.org/mirrors
 ```
 

@@ -34,3 +34,8 @@ f();
    通过这种方法初始化的数组，元素是不存在的，在控制台打印看到的是 `empty`，这些元素在 `every, filter, forEach, map, some` 的循环中也是被跳过的
    
 7. null > 0 和 null == 0都是false, 但是 null >=0 却是 true
+
+8. 在没有展开操作符时 `new Date(...args)` 这样的代码可以使用 `Function.prototype.bind.apply(Date, [null].concat(args))` 这样的方式实现
+
+9. 
+

@@ -1,0 +1,4 @@
+# pageScrollTo
+
+在调用wx.pageScrollTo时，它的success回调函数的调用时间在iso和android上表现不一致，在ios上在滚动结束后会调用success回调，而在android上则会在调用wx.pageScrollTo之后立即回调success，并不会等滚动结束。
+

@@ -68,7 +68,7 @@ $ shasum -b -a 384 FILENAME.js | xxd -r -p | base64
 通过document.write方法写入的内联script标签时，脚本是直接执行，并阻止后续脚本执行及文档解析
 ```javascript
 document.write('<script>console.log("document.write")<\/script>')
-console.log('consolo')
+console.log('console')
 // document.write
 // console
 ```
