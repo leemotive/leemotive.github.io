@@ -10,4 +10,6 @@
 
 ### 主要修改点  
 named.conf文件中的`listen-on`和`allow-query`需要设置为`any;`  
+
 在zone文件中用*来代表所有子域名
+
