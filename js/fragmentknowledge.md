@@ -37,5 +37,5 @@ f();
 
 8. 在没有展开操作符时 `new Date(...args)` 这样的代码可以使用 `Function.prototype.bind.apply(Date, [null].concat(args))` 这样的方式实现
 
-9. 
+9. 形如 `[].filter(n => n)` 的写法可以写为 `[].filter(Boolean)` 
 

@@ -43,3 +43,7 @@ $ npm view decimal-format versions
 ```
 
 可以查看所有历史版本
+
+
+
+`https://registry.npmjs.org/{packageName}`  可以查看本包的完整信息
