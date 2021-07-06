@@ -3,7 +3,7 @@ nginx配置文件中root和alias用法类似，有点区别
 
 ### root
 官网文档作如下说明
-```
+```ini
 Syntax:	root path;
 Default:	root html;
 Context:	http, server, location, if in location
@@ -22,7 +22,7 @@ The path value can contain variables, except $document_root and $realpath_root.
 
 
 ### alias
-```
+```ini
 Syntax:	alias path;
 Default:	—
 Context:	location

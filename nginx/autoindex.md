@@ -1,6 +1,6 @@
 # autoindex
 开启nginx遍历目录的功能，做一个简单的静态文件服务器
-```
+```nginx
 server {
     listen 80;
     server_name ued.leeup.top;
