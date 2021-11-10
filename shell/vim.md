@@ -2,21 +2,44 @@
 
 常用配置.vimrc
 ```
-execute pathogen#infect()
-set number
+call plug#begin('~/.vim/plugged')
+Plug 'preservim/nerdtree'
+Plug 'tomasiser/vim-code-dark'
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+Plug 'airblade/vim-gitgutter'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'tpope/vim-fugitive'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'editorconfig/editorconfig-vim'
+Plug 'Yggdroot/indentLine'
+call plug#end()
+
+colorscheme codedark
+
+autocmd VimEnter * NERDTree
+autocmd VimEnter * wincmd p
+
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+let g:airline_powerline_fonts = 1
+
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|.git\|dist\|build\'
 
 filetype plugin indent on
-set autoindent
-set smartindent
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
-set expandtab
-set mouse=a
-syntax enable
 
-set cursorline
-set ruler
+set bs=2
+set autoread
+set expandtab
+set tabstop=2
+set shiftwidth=2
+
+set ai
+set si
+set wrap
+set number
 ```
 
 [vim-pathogen](https://github.com/tpope/vim-pathogen)
@@ -159,4 +182,9 @@ set ruler
 
 
 
+
+
+### 无法退格删除
+
+set bs=2 添加到 `.vimrc` 文件中
 

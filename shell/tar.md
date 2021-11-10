@@ -16,6 +16,7 @@
 -j --bzip2   通过bzip2压缩或者解压缩, 结果文件一般为.tar.bz2
 -X --exclude  过滤掉文件不进行打包
 -C --directory  切换目录
+--strip-components 在解包时删除前置的路径数
 ```
 
 . ./ 可以选中当前目录下所有文件
