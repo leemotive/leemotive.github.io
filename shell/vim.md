@@ -19,9 +19,11 @@ call plug#end()
 
 colorscheme codedark
 
-autocmd VimEnter * NERDTree
-autocmd VimEnter * wincmd p
+" Start NERDTree when Vim is started with file arguments.
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() > 0 || exists('s:std_in') | NERDTree | wincmd p | endif
 
+" Exit Vim if NERDTree is the only window remaining in the only tab.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 let g:airline_powerline_fonts = 1
