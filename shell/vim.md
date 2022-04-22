@@ -160,29 +160,50 @@ set number
 `vim -On file1 file2...`垂直分屏
 
 ### 关闭分屏
-`Ctrl + wc`关闭当前窗口（如果是最后一个, 无法关闭）
+`Ctrl + w  c`关闭当前窗口（如果是最后一个, 无法关闭）
 
-`Ctrl + wq`关闭当前窗口（如果是最后一个，则退出vim）
+`Ctrl + w  q`关闭当前窗口（如果是最后一个，则退出vim）
 
 ### 分屏
-`Ctrl + ws`上下分屏
+`Ctrl + w  s`上下分屏
 
-`Ctrl + wv`左右分屏
+`Ctrl + w  v`左右分屏
 
 `:sp filename`左右分屏，且打开一个新的文件
 
 `:vsp filename`上下分屏，且打开一个新的文件
 
-### 切换分屏
-`Ctrl + wl`右边
+### 切换分屏 
 
-`Ctrl + wh`左边
+`Ctrl + w  Ctrl + w` 在分屏间循环移动
 
-`Ctrl + wj`上边
+`Ctrl + w  l`右边 
 
-`Ctrl + wk`下边
+`Ctrl + w  h`左边
+
+`Ctrl + w  j`上边
+
+`Ctrl + w  k`下边
 
 
+
+### 分屏移动
+
+同上面切换你分屏，将 hjkl 换成大写
+
+
+
+## 关闭分屏
+
+`Ctrl + w  c` 关闭当前窗口
+
+`:hide` 关闭当前窗
+
+`:only` 只保留当前窗口，关闭其它窗口
+
+`:qall` 关闭所有窗口
+
+`:wall` 保存所有修改过的窗口
 
 
 

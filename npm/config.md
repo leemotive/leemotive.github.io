@@ -14,6 +14,27 @@ $ npm config set @company:registry 公司私库地址
 
 
 
+执行 npm init 命令时的默认值
+
+```
+npm config set init.author.name [name]
+npm config set init.author.email [email]
+```
+
+或者可以通过脚本的方式来定义
+
+```
+npm config set init-module ~/.npm-init.js
+```
+
+
+
+
+
+
+
+
+
 
 
 ## Puppeteer 安装配置
