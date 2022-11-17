@@ -44,6 +44,12 @@ $ npm view decimal-format versions
 
 可以查看所有历史版本
 
+使用以下命令查看指定版本信息
+
+```bash
+$ npm view decimal-format@1.1.0
+```
+
 
 
 `https://registry.npmjs.org/{packageName}`  可以查看本包的完整信息

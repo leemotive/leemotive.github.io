@@ -10,3 +10,6 @@
 export PATH="/usr/local/bin/:$PATH"
 ```
 
+
+
+通过配置 `core.hooksPath` 来修改默认的 hooks 目录。新版 husky 就是通过这个方式将 hooks 目录修改到项目内的 `.husky` 目录的

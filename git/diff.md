@@ -27,4 +27,4 @@
   $ git diff --word-diff
   ```
 
-  
+- --nameonly 只显示存在差异的文件的路径
