@@ -8226,6 +8226,10 @@ body.okayNav-loaded {
     left: -25px;
   }
 
+  .marked-body .headerlink {
+    display: none;
+  }
+
   .marked-body .headerlink:before,
   .marked-body .markdownIt-Anchor:before {
     display: inline-block;

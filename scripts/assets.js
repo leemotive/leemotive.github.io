@@ -37,5 +37,10 @@ hxo.extend.filter.register('after_post_render', function(data) {
       $(ele).html($(ele).html().replace(/\s*危险\s*/, '<span class="quote-type">危险</span>'))
     }
   })
+
+  Array.from($('figure.highlight table')).forEach(ele => {
+    $(ele).addClass('code-table')
+  })
+
   data.content = $('body').html()
 })
