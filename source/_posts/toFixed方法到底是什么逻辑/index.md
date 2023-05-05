@@ -5,7 +5,8 @@ toc: true
 comment: true
 date: 2023-04-03 21:39
 tags:
-  - javascript
+  - JavaScript
+keywords:
   - number
   - toFixed
 category: 前端

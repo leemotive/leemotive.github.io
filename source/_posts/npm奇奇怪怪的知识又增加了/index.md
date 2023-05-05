@@ -5,10 +5,12 @@ toc: true
 comment: true
 date: 2023-04-07 11:08
 tags:
+  - node.js
+keywords: 
   - npm
   - install
   - alias
-category: Node
+category: 前端
 cover: ./install.png
 ---
 

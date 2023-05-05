@@ -5,8 +5,9 @@ toc: true
 comment: true
 date: 2023-03-27 22:41
 tags: 
-  - javascript
+  - JavaScript
   - vue.js
+keywords:
   - v-model
 category: 前端
 cover: ./vue.jpeg
@@ -100,5 +101,4 @@ export default {
 但是在我的项目里 vue-template-compiler 是通过 npm 安装的，而 vue 却是直接将文件下载到项目本地。vue-template-compiler 在运行的时候根本不知道项目会使用哪个版本的 vue。至于为什么会这样子。暂时先把它归结为历史原因吧。一段我也不清楚的历史。
 
 所以这种问题基本也不用太在意，但凡正常的点项目都不会遇到这种问题。每天踩一坑，坑坑不一样。
-
 

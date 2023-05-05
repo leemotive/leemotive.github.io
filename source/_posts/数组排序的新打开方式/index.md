@@ -5,7 +5,8 @@ toc: true
 comment: true
 date: 2023-04-01 11:01
 tags:
-  - javascript
+  - JavaScript
+keywords:
   - array
   - sort
 category: 前端
