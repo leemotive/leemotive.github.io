@@ -9,7 +9,7 @@ tags:
 keywords:
   - pdf-renderer
   - 预览
-category: java
+category: Java
 cover: ./8c308ab9-0d30-45cd-895b-6330539ccdcd.jpeg
 ---
 

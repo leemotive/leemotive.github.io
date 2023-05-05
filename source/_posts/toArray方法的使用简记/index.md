@@ -6,7 +6,7 @@ comment: true
 date: 2013-06-28 11:49:00
 tags: 
   - java
-category: java
+category: Java
 cover: 
 ---
 

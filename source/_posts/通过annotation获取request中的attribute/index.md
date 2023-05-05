@@ -9,7 +9,7 @@ tags:
 keywords:
   - RequestAttribute
   - 注解
-category: java
+category: Java
 cover: ./00085c0d-076a-4a7c-be97-0c8bcd96426d.jpg
 ---
 

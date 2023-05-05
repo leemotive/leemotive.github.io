@@ -10,7 +10,7 @@ keywords:
   - 配置文件
   - 头部
   - 命名空间
-category: java
+category: Java
 cover: ./88da9cc9-7c55-4e8f-9763-9c4e6b54a58c.jpg
 ---
 
