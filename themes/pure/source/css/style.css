@@ -6509,6 +6509,10 @@ body.no-sidebar .sidebar {
   padding: 14px 0;
 }
 
+.marked-body {
+  font-size: 16px;
+}
+
 .marked-body h1,
 .marked-body h2,
 .marked-body h3,
