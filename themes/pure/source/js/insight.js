@@ -201,7 +201,7 @@
 
     function gotoLink ($item) {
         if ($item && $item.length) {
-            location.href = $item.attr('data-url');
+            location.href = $item.attr('data-url').replace(/^\/\//, '/');
         }
     }
 
