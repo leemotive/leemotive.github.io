@@ -137,7 +137,7 @@ figure {
 hr {
   -webkit-box-sizing: content-box;
   box-sizing: content-box;
-  height: 0;
+  overflow: visible;
 }
 
 pre {
@@ -326,7 +326,7 @@ img {
 
 hr {
   margin-top: 21px;
-  margin-bottom: 21px;
+  margin-bottom: 0px;
   border: 0;
   border-top: 1px solid #eeeeee;
 }

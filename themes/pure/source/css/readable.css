@@ -124,7 +124,7 @@
   border: none;
   border-top: 1px dashed #92c8ff;
 }
-.marked-body hr:before {
+.marked-body hr::before {
   content: "✂";
   display: inline-block;
   position: relative;
@@ -134,7 +134,18 @@
   color: #007fff;
   font-size: 18px;
 }
-.marked-body hr:after {
+.marked-body hr:hover::before {
+  animation: scissors 2s ease infinite;
+}
+@keyframes scissors {
+  0% {
+    left: 0%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+.marked-body hr::after {
   content: "按虚线剪开";
   position: relative;
   top: -15px;
