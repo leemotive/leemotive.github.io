@@ -5,7 +5,7 @@ toc: true
 comment: true
 date: 2023-04-18 18:01
 tags:
-  - javascript
+  - JavaScript
   - vue.js
 category: 前端
 cover: ./vue-ts-decorator.png
