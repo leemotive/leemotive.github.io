@@ -9,6 +9,6 @@ $ nohup verdaccio &
 如果出现在关键远程链接后，对应的服务进程也随之关闭的情况，可以添加`!`
 
 ```bash
-$ nohup verdaccio $!
+$ nohup verdaccio &!
 ```
 
