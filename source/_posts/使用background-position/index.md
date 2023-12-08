@@ -20,22 +20,33 @@ css里有个background-position 属性，用来设定背景图沿x ,y 方向的�
 
 一般情况下设定 background-repeat: no-repeat 且 容器大于图片，图片位于左上角，如下图
 
-![](./0bbfbbbc-81a8-37fc-a85c-33cd261ad7b6.png)  
+![](./0bbfbbbc-81a8-37fc-a85c-33cd261ad7b6.png)
+
+ 
+
+
 此时如果设置：background-position-x:40px;
 
 图片会向右偏移40px
 
-![](./72509d00-c611-35db-a506-cbfa576fcd27.png)  
+![](./72509d00-c611-35db-a506-cbfa576fcd27.png)
+
+
+
+
+
 如果设置为负数，则向左偏移，background-position-x: -40px;如下图
 
-![](./8b9d49b8-a3cc-3610-b464-766ab462ebfc.png)  
+![](./8b9d49b8-a3cc-3610-b464-766ab462ebfc.png)
+
 以上是设置固定像素值的情况，也可以设置百分比，设置百分比后,实际偏移量计算公式是
 
 以X轴为例 偏移量 =（容器宽度 - 图像宽度）* 百分比
 
 设置background-position-x:40%;
 
-![](./52d9cd68-c754-3a81-b83b-5b96d7392992.png)  
+![](./52d9cd68-c754-3a81-b83b-5b96d7392992.png)
+
 实际偏移量是(300 - 200)* 40% = 40px, 可以看到和直接设置background-position-x:40px效果一样。
 
 如果设置top……等固定值，效果等同百分比具体如下
@@ -53,5 +64,5 @@ PS：当容器小于图片的时候，设置百分比时，正数百分比计算
 大部分情况下会使用background-position同时设置x,y方向，如果此时只设置一个值如 background-position:40px;
 那么此值作用于X方向， Y方向被设为center，效果如下
 
-![](./ac450d47-20b1-37e9-9b48-febf5f0142b8.png)  
+![](./ac450d47-20b1-37e9-9b48-febf5f0142b8.png)
 

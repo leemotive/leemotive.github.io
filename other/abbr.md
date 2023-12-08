@@ -7,10 +7,10 @@
 | ARP | Address Resolution Protocol | 地址解析协议 |
 | BFC | Block Formatting Context | 块级格式化上下文 |
 | CSRF | Cross-site request forgery | 跨站请求伪造 |
-| CSS | Cascading Style Sheet |
-| CSSOM | CSS Object Model |
+| CSS | Cascading Style Sheet ||
+| CSSOM | CSS Object Model ||
 | DNS | Domain Name System | 域名系统（服务）协议 |
-| DOM | Document Object Model |
+| DOM | Document Object Model ||
 | DoS | Denial of Service | 拒绝服务 |
 | DDoS | Distributed Denial of Service | 分布式拒绝服务攻击 |
 | DTD | Document Type Definition | 文档类型定义 |
@@ -34,7 +34,7 @@
 | URL | Uniform Resource Locator | 统一资源定位 |
 | URN | Uniform Resource Name | 统一资源名称 |
 | URI | Uniform Resource Identifier | 统一资源标识符 |
-| XSS | Cross Site Security | 跨站脚本攻击 |
+| XSS | Cross Site Scripting | 跨站脚本攻击 |
 
 ### tcp握手挥手相关标记
 |缩写|全称|名称|

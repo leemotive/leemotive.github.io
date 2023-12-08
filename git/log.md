@@ -42,3 +42,9 @@ $ git log [<options>] [<revision range>] [[--] <path>…​]
 ##### --no-decorate
 ##### --decorate[=short|full|auto|no]
 定义是否显示及如何显示分支及标签名，也就是`refs/heads/`，`refs/tags/`，`refs/remotes/`这些前缀会不会显示。如果赋值no，不会显示分支及标签名。如果赋值short，这会前缀不显示。如果赋值full，会完整显示这些前缀。如果赋值auto，则在命令终端里，像short一样输出，否则像no一样没有输出(比例在node里面通过exec执行代码)
+
+
+
+##### --all
+
+会显示所有分支的日志，即使它们并不包含在当前分支下
