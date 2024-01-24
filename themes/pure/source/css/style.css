@@ -718,31 +718,31 @@ blockquote {
   background-color: #fbfbfb;
 }
 
-.quote-type {
+.marked-body .quote-type {
   font-weight: 600;
 }
-blockquote.quote-tip {
+.marked-body blockquote.quote-tip {
   background-color: #f3f5f7;
   border-color: #42b983;
   color: #2c3e50;
   border-width: 0 0 0 0.5rem;
 }
-blockquote.quote-warn {
+.marked-body blockquote.quote-warn {
   background-color: rgba(255,229,100,.3);
   border-color: #e7c000;
   color: #6b5900;
   border-width: 0 0 0 0.5rem;
 }
-blockquote.quote-warn .quote-type {
+.marked-body blockquote.quote-warn .quote-type {
   color: #b29400;
 }
-blockquote.quote-danger {
+.marked-body blockquote.quote-danger {
   background-color: #ffe6e6;
   border-color: #c00;
   color: #4d0000;
   border-width: 0 0 0 0.5rem;
 }
-blockquote.quote-danger .quote-type {
+.marked-body blockquote.quote-danger .quote-type {
   color: #990000;
 }
 
