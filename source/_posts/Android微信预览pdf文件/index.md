@@ -71,7 +71,7 @@ location ~* \.pdf$ {
 ## 总结
 
 - 下载 pdfjs-dist 预编译版本，并部署，访问 web/viewer.html 文件
-- 修改web/viewer.mjs 文件取消地址源的校验（如果 pdf 文件和 viewer.html 同源可忽略此步）
+- 修改web/viewer.mjs 文件取消地址源的校验（如果 pdf 文件和 viewer.html 同源可忽略此步及下一步）
 - 给 pdf 添加header 允许跨域请求
 - 将 pdf地址编码后作为参数 file 的值添加到 viewer.html 地址上
 - 访问 viewer.html
