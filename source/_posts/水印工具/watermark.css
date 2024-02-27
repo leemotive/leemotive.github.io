@@ -1,0 +1,78 @@
+.watermark {
+  .operator {
+    font-size: 16px;
+    display: flex;
+
+    label {
+      margin-bottom: 0;
+    }
+
+    .watermark-content {
+      border: 1px solid #bababa;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    .watermark-color {
+      height: 40px;
+      cursor: pointer;
+    }
+    .range-wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+
+    input[type=range] {
+      height: 18px;
+    }
+    .size-range {
+      width: 100px;
+    }
+    .opacity-range {
+      width: 70px;
+    }
+
+    & > * {
+      margin-right: 10px;
+    }
+  }
+
+  .image-container {
+    margin-top: 30px;
+    position: relative;
+    width: fit-content;
+    overflow: hidden;
+
+    img {
+      margin: 0;
+      max-width: 100%;
+    }
+
+    .marker-word {
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotate(-45deg);
+      transform-origin: right top;
+    }
+  }
+
+  .trigger {
+    border: none;
+    background: #0091ff;
+    color: #ffffff;
+    position: relative;
+    overflow: hidden;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 155px;
+  }
+
+  .trigger-input {
+    opacity: 0;
+    position: absolute;
+    top: -200px;
+  }
+}
