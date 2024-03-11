@@ -1,0 +1,34 @@
+#sign_demo {
+  input[type=button] {
+    margin-left: 20px;
+    height: 44px;
+    padding: 8px 15px;
+    border: none;
+    width: 120px;
+    text-align: center;
+    line-height: 28px;
+    color: #ffffff;
+    background-color: #008cff;
+    border-radius: 5px;
+  }
+
+  input[type=text] {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    height: 44px;
+    padding: 8px 5px;
+  }
+
+  .sign_result {
+    position: relative;
+    padding: 20px 120px;
+    height: 60px;
+    &::before {
+      content: '签名结果:';
+      position: absolute;
+      top: 20px;
+      left: 0;
+    }
+  }
+
+}
