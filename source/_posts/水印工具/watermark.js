@@ -50,7 +50,7 @@ function init() {
     const size = document.createElement('input');
     size.classList.add('size-range')
     size.setAttribute('type', 'range');
-    size.setAttribute('min', '24');
+    size.setAttribute('min', '6');
     size.setAttribute('max', '50');
     size.value = 40;
     sizeWrapper.appendChild(size);
