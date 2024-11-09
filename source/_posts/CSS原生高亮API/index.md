@@ -75,4 +75,4 @@ CSS.highlights.set('high2', highlight2);
 
 range对象的 setStart 和 setEnd 参数的第一个参数dom对象可以是不同的dom对象，但是结束位置一定是在开始位置之后。如果dom对象是文本节点，那第二个参数表示是文本内容的位置。如果dom对象是普通元素，那第二个参数表示是元素的第n个子元素
 
-可以使用下面这个链接查看效果
+可以使用下面这个链接查看效果[CSS高亮demo](/2024/11/09/CSS高亮demo/index.html)
