@@ -23,7 +23,25 @@ cover: ./cover.jpg
 }
 ```
 
-现在它只能解析出黑色或者白色，不能解析出其他颜色。这个就比较有点局限了
+现在它只能解析出黑色或者白色，不能解析出其他颜色。这个就比较有点局限了。请下面的示例
+```html
+<style>
+.darkmagenta {
+  --background-color: darkmagenta;
+}
+.lightpink {
+  --background-color: lightpink;
+}
+span {
+  background-color: var(--background-color);
+  color: contrast-color(var(--background-color));
+}
+</style>
+<span class="darkmagenta">--background-color: darkmagenta;</span>
+<span class="lightpink">--background-color: lightpink;</span>
+```
+![](./contrast.png)
+
 
 ---- 
 
